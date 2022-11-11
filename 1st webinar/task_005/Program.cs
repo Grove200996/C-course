@@ -7,6 +7,7 @@
 
 Console.WriteLine("Enter a number: ");
 int num = Convert.ToInt32(Console.ReadLine());
+num = Math.Abs(num);
 if (num < 1000 && num > 99)
 {
     num = num % 10;
