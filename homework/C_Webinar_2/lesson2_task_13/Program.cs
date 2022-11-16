@@ -10,6 +10,7 @@
 
 System.Console.Write("Enter a number: ");
 int num = Convert.ToInt32(Console.ReadLine());
+num = Math.Abs(num);
 int ThirdDigit(int number)
 {
     while (number > 1000)

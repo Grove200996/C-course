@@ -9,10 +9,17 @@
 System.Console.Write("Enter a number: ");
 int num = Convert.ToInt32(System.Console.ReadLine());
 
-if(num == 6 || num == 7) { 
+if (num == 6 || num == 7)
+{
     System.Console.WriteLine($"{num} -> да");
 }
-else {
+else if (num < 1 || num > 7)
+{
+    System.Console.WriteLine("Wrong data");
 
+}
+else
+{
     System.Console.WriteLine($"{num} -> нет");
 }
+
