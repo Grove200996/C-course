@@ -15,7 +15,7 @@ void Mul(int number)
 {
     for (int i = 1; i <= number; i++)
     {
-        System.Console.WriteLine($"{i,3} = {Math.Pow(i,3),3}");
+        Console.WriteLine($"{i,3} = {Math.Pow(i, 3),3}");
 
     }
 

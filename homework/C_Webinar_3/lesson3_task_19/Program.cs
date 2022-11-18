@@ -11,7 +11,7 @@
 
 
 void IsPalindrome(int number)
-{
+{   number = Math.Abs(number);
     int fifthDig = number % 10;
     int fourthDig = (number / 10) % 10;
     int thirdDig = (number / 100) % 10;
@@ -19,13 +19,13 @@ void IsPalindrome(int number)
     int firstDig = number / 10000;
     if (fifthDig == firstDig && fourthDig == secondDig)
     {
-        System.Console.WriteLine("Yes, it's palindrome");
+        Console.WriteLine("Yes, it's palindrome");
 
     }
     else
     {
-        System.Console.WriteLine("No,It's not");
+        Console.WriteLine("No,It's not");
 
     }
 }
-IsPalindrome(23432);
+IsPalindrome(-23412);

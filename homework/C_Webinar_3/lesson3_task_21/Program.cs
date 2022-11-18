@@ -8,12 +8,12 @@
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
 
-System.Console.WriteLine("Введите первую точку: ");
+Console.WriteLine("Введите первую точку: ");
 double xa = Convert.ToDouble(Console.ReadLine());
 double xb = Convert.ToDouble(Console.ReadLine());
 double xc = Convert.ToDouble(Console.ReadLine());
 
-System.Console.WriteLine("Введите вторую точку: ");
+Console.WriteLine("Введите вторую точку: ");
 double ya = Convert.ToDouble(Console.ReadLine());
 double yb = Convert.ToDouble(Console.ReadLine());
 double yc = Convert.ToDouble(Console.ReadLine());
@@ -27,4 +27,4 @@ double Coordinates(double x1, double y1, double x2, double y2, double z1, double
 }
 double result = Coordinates(xa, xb, ya, yb, xc, yc);
 
-System.Console.WriteLine(Math.Round(result, 2, MidpointRounding.ToZero));
+Console.WriteLine(Math.Round(result, 2, MidpointRounding.ToZero));
