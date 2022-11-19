@@ -11,7 +11,7 @@
 
 
 
-void Mul(int number)
+void Cubes(int number)
 {
     for (int i = 1; i <= number; i++)
     {
@@ -21,4 +21,4 @@ void Mul(int number)
 
 }
 
-Mul(10);
+Cubes(10);

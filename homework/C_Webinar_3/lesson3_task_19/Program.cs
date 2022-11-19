@@ -10,22 +10,31 @@
 // 23432 -> да
 
 
-void IsPalindrome(int number)
-{   number = Math.Abs(number);
-    int fifthDig = number % 10;
-    int fourthDig = (number / 10) % 10;
-    int thirdDig = (number / 100) % 10;
-    int secondDig = (number / 1000) % 10;
-    int firstDig = number / 10000;
-    if (fifthDig == firstDig && fourthDig == secondDig)
+string IsPalindrome(int number)
+{
+    number = Math.Abs(number);
+    if (number > 100000 || number < -100000)
     {
-        Console.WriteLine("Yes, it's palindrome");
-
+        return "wrong data";
     }
     else
     {
-        Console.WriteLine("No,It's not");
+        int fifthDig = number % 10;
+        int fourthDig = (number / 10) % 10;
+        int thirdDig = (number / 100) % 10;
+        int secondDig = (number / 1000) % 10;
+        int firstDig = number / 10000;
+        if (fifthDig == firstDig && fourthDig == secondDig)
+        {
+            return "Yes, it's palindrome";
 
+        }
+        else
+        {
+            return "No,It's not";
+
+        }
     }
 }
-IsPalindrome(-23412);
+
+System.Console.WriteLine(IsPalindrome(-23432));
