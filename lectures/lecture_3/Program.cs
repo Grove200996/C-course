@@ -2,11 +2,11 @@
 
 // -------Первый вид
 
-void Method1()
-{
-    Console.WriteLine("Первый метод");
+// void Method1()
+// {
+//     Console.WriteLine("Первый метод");
 
-}
+// }
 
 // Method1();
 
@@ -14,10 +14,10 @@ void Method1()
 // -------Второй вид
 
 
-void Method2(string msg)
-{
-    System.Console.WriteLine(msg);
-}
+// void Method2(string msg)
+// {
+//     System.Console.WriteLine(msg);
+// }
 
 // Method2("Текст");
 
@@ -25,10 +25,10 @@ void Method2(string msg)
 
 //--------Третий вид
 
-int Method3()
-{
-    return DateTime.Today.Year;
-}
+// int Method3()
+// {
+//     return DateTime.Today.Year;
+// }
 
 // System.Console.WriteLine(Method3());
 
@@ -74,10 +74,10 @@ int Method3()
 // }
 
 
-string text = "Ска́зка — один из жанров фольклора, либо литературы."
-            + "Эпическое, преимущественно прозаическое произведение с волшебным,"
-            + "героическим или бытовым сюжетом. Сказку характеризует отсутствие"
-            + "претензий на историчность повествования, нескрываемая вымышленность сюжета";
+// string text = "Ска́зка — один из жанров фольклора, либо литературы."
+//             + "Эпическое, преимущественно прозаическое произведение с волшебным,"
+//             + "героическим или бытовым сюжетом. Сказку характеризует отсутствие"
+//             + "претензий на историчность повествования, нескрываемая вымышленность сюжета";
 
 
 // string Replace(string text, char OldValue, char NewValue)

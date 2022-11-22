@@ -1,5 +1,5 @@
 ﻿
-Console.Write("Enter your name ");
-string name = Console.ReadLine();
-Console.Write("Hello, ");
-Console.Write(name);
+// Console.Write("Enter your name ");
+// string name = Console.ReadLine();
+// Console.Write("Hello, ");
+// Console.Write(name);
