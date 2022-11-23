@@ -4,14 +4,20 @@
 
 
 int[] array = new int[8];
-void MakeArray(int[] arr)
+void FillArray(int[] arr)
 {
-    Console.Write("[");
+    
     for (int i = 0; i < arr.Length; i++)
     {
         arr[i] = new Random().Next(-20, 20);
     }
+
+}
+void PrintArray(int[] arr)
+{
+    Console.Write("[");
     string res = string.Join(", ", array);
     Console.Write($"{res}]");
 }
-MakeArray(array);
+FillArray(array);
+PrintArray(array);

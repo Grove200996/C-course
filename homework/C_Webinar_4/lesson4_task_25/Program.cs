@@ -4,11 +4,11 @@
 // 3, 5 -> 243
 
 // 2, 4 -> 16
-Console.Write("Enter A number: ");
-int first = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter B number: ");
-int second = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
+Console.Write("Enter A number: ");
+int first = Math.Abs(Convert.ToInt32(Console.ReadLine()));
+Console.Write("Enter B number: ");
+int second = Convert.ToInt32(Console.ReadLine());
 int PowDigit(int a, int b)
 {
     int summ = a * a;
@@ -18,4 +18,5 @@ int PowDigit(int a, int b)
     }
     return summ;
 }
-Console.WriteLine(PowDigit(first, second));
+if (second < 0) System.Console.WriteLine("wrong data");
+else Console.WriteLine(PowDigit(first, second));
